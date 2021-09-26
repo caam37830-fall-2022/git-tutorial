@@ -114,13 +114,6 @@ That's it!
 
 *Optional*: When doing your assignments, try to make your commits as atomic as possible instead of making one big commit with all your changes. That is, if you complete all the problems within `file.py`, `git add` and `git commit -m "solved problems in file.py"`. Repeat this for each file's changes. Making your changes as atomic as possible and writing descriptive commit messages is good practice, because it means you have a very clean work tree. Any colleagues reading the history can easily revert changes you made, and it minimizes the chance of big conflicts with other people's work you have to resolve manually.
 
-## Missing the forest for the trees
-
-Git is a way to represent a codebase (and changes to it) as a directed acyclic graph (DAG). The simplest possible DAG is one where each node is connected only to the next one. Such a DAG corresponds to the base case where one individual is working on one set of files with no branching:
-
-![](https://www.dropbox.com/s/m1373zfdm91aaj4/Screen%20Shot%202020-10-01%20at%2016.39.40.png?raw=1)
-
-There are more complex commands that allow you to introduce branches, merge branches, and perform other graph manipulations. But that's for another day.
 
 ## Basic git cheatsheet
 

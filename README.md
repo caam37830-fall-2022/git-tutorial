@@ -56,8 +56,7 @@ Unpacking objects: 100% (56/56), done.
 Homeworks will be released in GitHub Classroom. Each assignment will have an URL inviting you to automatically create a private repo within the `caam37830-2021` GitHub organization to store your work in. 
 
 Create a repo for the assignment, and go to the main page. You should see something like this, with additional files that help you:
-
-![here](https://www.dropbox.com/s/i2r1ahcbp02pvs9/Screen%20Shot%202021-09-26%20at%201.43.09%20PM.png?dl=0)
+<img width="1427" alt="Screen Shot 2021-09-26 at 1 43 09 PM" src="https://user-images.githubusercontent.com/20557963/134820798-409f102d-2361-4b98-a856-a52c3c46de76.png">
 
 To copy over the assignment files, click the `Code` dropdown menu (boxed in red), and click Clone > SSH. You can click the clipboard button (boxed in red) to copy the repo's ssh URL to your clipboard:
 

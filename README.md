@@ -57,7 +57,7 @@ Homeworks will be released in GitHub Classroom. Each assignment will have an URL
 
 Create a repo for the assignment, and go to the main page. You should see something like this, with additional files that help you:
 
-![](https://www.dropbox.com/s/hmpiogjfgr5yqsh/Screen%20Shot%202020-10-01%20at%2015.53.47.png?raw=1)
+![](https://www.dropbox.com/s/i2r1ahcbp02pvs9/Screen%20Shot%202021-09-26%20at%201.43.09%20PM.png?dl=0)
 
 To copy over the assignment files, click the `Code` dropdown menu (boxed in red), and click Clone > SSH. You can click the clipboard button (boxed in red) to copy the repo's ssh URL to your clipboard:
 

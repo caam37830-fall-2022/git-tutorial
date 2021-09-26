@@ -64,7 +64,7 @@ To copy over the assignment files, click the `Code` dropdown menu, and click Clo
 
 <img width="1433" alt="git_tutorial2" src="https://user-images.githubusercontent.com/20557963/134821105-f5b67b82-5481-4967-9016-f521812db6c0.png">
 
-**Check**: `git clone git@github.com:caam37830-2021/test-assignment-khooyh.git` will copy over the entire contents of the repo to a directory called `/test-assignment-khooyh` in whichever directory you call it in. As an example, suppose I run `cd ~/caam37830-2021` and run `git clone git@github.com:caam37830/test-assignment-richardzhu.git`. I should have the directory `~/caam37830/test-assignment-richardzhu` containing all the homework files.
+**Check**: `git clone git@github.com:caam37830-2021/test_assignment-khooyh.git` will copy over the entire contents of the repo to a directory called `/test_assignment-khooyh` in whichever directory you call it in. As an example, suppose I run `cd ~/caam37830-2021` and run `git clone git@github.com:caam37830-2021/test_assignment-khooyh.git`. I should have the directory `~/caam37830-2021/test_assignment-richardzhu` containing all the homework files.
 
 ### Tracking the changes and submitting your assignments
 

@@ -55,14 +55,16 @@ Unpacking objects: 100% (56/56), done.
 
 Homeworks will be released in GitHub Classroom. Each assignment will have an URL inviting you to automatically create a private repo within the `caam37830-2021` GitHub organization to store your work in. 
 
-Create a repo for the assignment, and go to the main page. You should see something like this, with additional files that help you:
-<img width="1427" alt="Screen Shot 2021-09-26 at 1 43 09 PM" src="https://user-images.githubusercontent.com/20557963/134820798-409f102d-2361-4b98-a856-a52c3c46de76.png">
+Create a repo for the assignment, and go to the main page. You should see something like this:
 
-To copy over the assignment files, click the `Code` dropdown menu (boxed in red), and click Clone > SSH. You can click the clipboard button (boxed in red) to copy the repo's ssh URL to your clipboard:
+<img width="1423" alt="git_tutorial1" src="https://user-images.githubusercontent.com/20557963/134821094-1a570e7e-de64-41d4-ad3b-a776df4435e9.png">
 
-![](https://www.dropbox.com/s/cw7waxd9fo8usi1/Screen%20Shot%202020-10-01%20at%2015.56.07.png?raw=1)
 
-**Check**: `git clone git@github.com:caam37830/test-assignment-richardzhu.git` will copy over the entire contents of the repo to a directory called `test-assignment-richardzhu` in whichever directory you call it in. As an example, suppose I run `cd ~/caam37830` and run `git clone git@github.com:caam37830/test-assignment-richardzhu.git`. I should have the directory `~/caam37830/test-assignment-richardzhu` containing all the homework files.
+To copy over the assignment files, click the `Code` dropdown menu, and click Clone > SSH, and copy the repo's ssh URL:
+
+<img width="1433" alt="git_tutorial2" src="https://user-images.githubusercontent.com/20557963/134821105-f5b67b82-5481-4967-9016-f521812db6c0.png">
+
+**Check**: `git clone git@github.com:caam37830-2021/test-assignment-khooyh.git` will copy over the entire contents of the repo to a directory called `/test-assignment-khooyh` in whichever directory you call it in. As an example, suppose I run `cd ~/caam37830-2021` and run `git clone git@github.com:caam37830/test-assignment-richardzhu.git`. I should have the directory `~/caam37830/test-assignment-richardzhu` containing all the homework files.
 
 ### Tracking the changes and submitting your assignments
 

@@ -40,20 +40,21 @@ To interface with remote repositories stored on GitHub, you will also need to ma
 
 **Required**: In order to pull and push to private repos on GitHub, you will need to provide some form of authentication. The ideal solution here is to use SSH keys. Follow the [instructions here](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to generate a new SSH key for your computer and add it to your GitHub account.
 
-**Required**: Check that running `git clone https://github.com/caam37830-2021/caam37830-2021.github.io.git` copies a directory called `caam37830-2021.github.io` into the directory you ran it in, and verify that you see output like the following:
+**Required**: Check that running `git clone git@github.com:caam37830-fall-2022/caam37830-fall-2022.github.io.git` copies a directory called `caam37830-fall-2022.github.io` into the directory you ran it in, and verify that you see output like the following:
 
 ```bash
-Cloning into 'caam37830-2021.github.io'...
-remote: Enumerating objects: 56, done.
-remote: Counting objects: 100% (56/56), done.
-remote: Compressing objects: 100% (52/52), done.
-remote: Total 56 (delta 28), reused 9 (delta 0), pack-reused 0
-Unpacking objects: 100% (56/56), done.
+Cloning into 'caam37830-fall-2022.github.io'...
+remote: Enumerating objects: 85, done.
+remote: Counting objects: 100% (85/85), done.
+remote: Compressing objects: 100% (54/54), done.
+remote: Total 85 (delta 39), reused 71 (delta 25), pack-reused 0
+Receiving objects: 100% (85/85), 721.37 KiB | 1.66 MiB/s, done.
+Resolving deltas: 100% (39/39), done.
 ```
 
 ### Using GitHub classroom to pull your assignments
 
-Homeworks will be released in GitHub Classroom. Each assignment will have an URL inviting you to automatically create a private repo within the `caam37830-2021` GitHub organization to store your work in. 
+Homeworks will be released in GitHub Classroom. Each assignment will have an URL inviting you to automatically create a private repo within the `caam37830-fall-2022` GitHub organization to store your work in. 
 
 Create a repo for the assignment, and go to the main page. You should see something like this:
 
@@ -63,7 +64,7 @@ To copy over the assignment files, click the `Code` dropdown menu, and click Clo
 
 <img width="1234" alt="2" src="https://user-images.githubusercontent.com/68249613/192685234-f22b0aa1-376f-4d14-a806-dc09167d5df2.png">
 
-**Check**: `git clone git@github.com:caam37830-2021/test_assignment-khooyh.git` will copy over the entire contents of the repo to a directory called `/test_assignment-khooyh` in whichever directory you call it in. As an example, suppose I run `cd ~/caam37830-2021` and run `git clone git@github.com:caam37830-2021/test_assignment-khooyh.git`. I should have the directory `~/caam37830-2021/test_assignment-richardzhu` containing all the homework files.
+**Check**: `git clone git@github.com:caam37830-fall-2022/test_assignment.git` will copy over the entire contents of the repo to a directory called `/test_assignment` in whichever directory you call it in. As an example, suppose I run `cd ~/caam37830-fall-2022` and run `git clone git@github.com:caam37830-fall-2022/test_assignment.git`. I should have the directory `~/caam37830-fall-2022/test_assignment` containing all the homework files.
 
 ### Tracking the changes and submitting your assignments
 

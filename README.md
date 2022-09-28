@@ -57,11 +57,11 @@ Homeworks will be released in GitHub Classroom. Each assignment will have an URL
 
 Create a repo for the assignment, and go to the main page. You should see something like this:
 
-![Image 1](https://www.dropbox.com/s/jqv6qovh234ff63/1.png?dl=0)
+<img width="1234" alt="1" src="https://user-images.githubusercontent.com/68249613/192685223-60bbd8e4-47e2-423c-8294-f04783dabbf4.png">
 
 To copy over the assignment files, click the `Code` dropdown menu, and click Clone > SSH, and copy the repo's ssh URL:
 
-![Image 2](https://www.dropbox.com/s/btqztgwvykds80g/2.png?dl=0)
+<img width="1234" alt="2" src="https://user-images.githubusercontent.com/68249613/192685234-f22b0aa1-376f-4d14-a806-dc09167d5df2.png">
 
 **Check**: `git clone git@github.com:caam37830-2021/test_assignment-khooyh.git` will copy over the entire contents of the repo to a directory called `/test_assignment-khooyh` in whichever directory you call it in. As an example, suppose I run `cd ~/caam37830-2021` and run `git clone git@github.com:caam37830-2021/test_assignment-khooyh.git`. I should have the directory `~/caam37830-2021/test_assignment-richardzhu` containing all the homework files.
 

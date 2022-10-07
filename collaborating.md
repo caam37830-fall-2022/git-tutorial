@@ -9,9 +9,9 @@ First, everyone should clone the same repository from GitHub.
 
 ## Branching
 
-By default, git repositories have a master branch which is the "official" version of the code.
+By default, git repositories have a main branch which is the "official" version of the code.
 
-If multiple people are working on the same code at the same time, conflicts might occur.  Ideally, everyone works in an independent branch, which will eventually be merged with the master branch.
+If multiple people are working on the same code at the same time, conflicts might occur. Ideally, everyone works in an independent branch, which will eventually be merged with the master branch.
 
 In order to create a new branch, you can run
 ```
@@ -41,7 +41,7 @@ When multiple people work on the same repository, they may need to merge their w
 
 In order to merge the contents of branch `branch1` into master, you can run
 ```
-git checkout master # checks out master branch
+git checkout main # checks out master branch
 git merge branch1 # merges contents of branch1 into master
 ```
 
@@ -97,7 +97,7 @@ git reset --hard # return to state of last commit
 Sometimes, you may wish to change the start of a branch from one place to another.  This is useful if changes on a branch do not rely on changes that occurred after the branch was formed.
 
 ```bash
-git rebase master branch # rebases branch to be on master
+git rebase main branch # rebases branch to be on master
 ```
 
 * .gitignore
